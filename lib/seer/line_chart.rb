@@ -107,7 +107,7 @@ module Seer
 
       %{
         <script type="text/javascript">
-          google.load('visualization', '1', {'packages':['corechart']});
+          google.load('visualization', '1', {'packages':['linechart']});
           google.setOnLoadCallback(drawChart);
           function drawChart() {
             var data = new google.visualization.DataTable();
